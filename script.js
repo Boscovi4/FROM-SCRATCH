@@ -13,9 +13,14 @@ document.addEventListener("DOMContentLoaded", function() {
   
       // Change button text based on selected language
       if (selectedValue === "en") {
-        button.textContent = "Click Me";
+        button.textContent = "Lanto Time";
       } else if (selectedValue === "te") {
-        button.textContent = "Klik iha ne'e";
+        button.textContent = "Mai Ita Lanto";
+      }
+      if (selectedValue === "en") {
+        button.textContent = "Game Rules";
+      } else if (selectedValue === "te") {
+        button.textContent = "Oinsa Atu Halimar";
       }
     });
   });
