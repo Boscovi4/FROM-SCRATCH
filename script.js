@@ -17,10 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
       } else if (selectedValue === "te") {
         button.textContent = "Mai Ita Lanto";
       }
-      if (selectedValue === "en") {
-        button.textContent = "Game Rules";
-      } else if (selectedValue === "te") {
-        button.textContent = "Oinsa Atu Halimar";
+      
       }
     });
   });
