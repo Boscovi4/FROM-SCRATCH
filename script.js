@@ -17,8 +17,6 @@ document.addEventListener("DOMContentLoaded", function() {
       } else if (selectedValue === "te") {
         button.textContent = "Mai Ita Lanto";
       }
-      
-      }
     });
   });
   
